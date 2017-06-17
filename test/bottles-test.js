@@ -25,7 +25,7 @@ Take one down and pass it around, 1 bottle of beer on the wall.`;
     expect(Bottles.verse(2)).to.equal(expected);
   });
 
-  it.skip('test verse 1', () => {
+  it('test verse 1', () => {
     const expected = `1 bottle of beer on the wall, 1 bottle of beer.
 Take it down and pass it around, no more bottles of beer on the wall.`;
 
