@@ -32,7 +32,7 @@ Take it down and pass it around, no more bottles of beer on the wall.`;
     expect(Bottles.verse(1)).to.equal(expected);
   });
 
-  it.skip('test verse 0', () => {
+  it('test verse 0', () => {
     const expected = `No more bottles of beer on the wall, no more bottles of beer.
 Go to the store and buy some more, 99 bottles of beer on the wall.`;
 
